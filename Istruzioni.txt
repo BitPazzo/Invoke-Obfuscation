@@ -1,0 +1,10 @@
+0. Clonare il repository: git clone https://github.com/danielbohannon/Invoke-Obfuscation.git "C:\Users\francesco.giorgi\Documents\GitHub Repository\GIT CLONE Encoding-Ps1"
+1. Importare il modulo con: Import-Module "C:\Users\francesco.giorgi\Documents\GitHub Repository\GIT CLONE Encoding-Ps1\Invoke-Obfuscation.psd1" -Force
+2. Lanciare il tool con: Invoke-Obfuscation
+3. Caricare lo script con SET SCRIPTPATH <percorso dello script> (es. C:\Obfuscation\Original.ps1)
+4. Encoding
+5. 2 
+6. Esporto lo script codificato con: OUT <percorso di esportazione> (es. OUT C:\ScriptOffuscato\EncodedScript.ps1)
+7. Testare lo script codificato con: pwsh.exe -ExecutionPolicy Bypass -File "C:\ScriptOffuscato\EncodedScript.ps1"
+
+
